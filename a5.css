@@ -1,0 +1,422 @@
+    *
+	{
+		box-sizing:border-box
+		
+	}    
+  
+  /*
+   .div
+{
+	width:200px;
+	height:200px;
+	background-color:#DDD;
+	margin:20px auto;
+	border-bottom-left-radius:120px;
+	
+}
+  .div1
+{
+	padding:10px;
+	background:#DDD;
+	width:200px;
+	height:200px;
+	margin:20px auto;
+	font-size:20px;
+	font-family:tahoma;
+	
+	
+	box-shadow:-10px -10px 10px 10px #c5d7e3 inset
+	
+}
+
+  section
+{
+	width:940px;
+	margin:20px auto;
+	background:#EEE;
+	overflow:hidden
+	
+}
+  .left
+{
+	float:left;
+	width:340px;
+	background-color:#F00;
+	color:#FFF;
+	padding:10px;
+	border:10px solid yellow
+}
+  .right
+{
+	float:right;
+	width:600px;
+	background-color:#00F;
+	color:#FFF
+	;padding:10px
+	
+}
+	.img
+{
+	
+ width:200px;
+ height:200px;
+ border-radius:100px;
+ margin:50px auto;
+ padding:10px;
+ background-color:#FFF;
+ border:10px solid #8eaac0;
+
+		
+}
+	.img:hover 
+{
+			box-shadow:10px 10px 5px 10px inset red
+}
+			img:active
+{
+			box-shadow:10px 10px 5px 10px inset blue
+}
+  h1
+{
+	text-shadow:10px 10px 6px  red
+	
+}	
+
+.more
+{
+	background-color:#EEE;
+	padding:10px;
+	border:1px solid #CCC;
+	width:300px;
+	white-space:normal;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	
+}	
+.more:hover
+{
+	overflow:visible
+}	
+  .tranc
+  {
+	  background:#EEE ;
+	  padding:10px ;
+	  margin:100px auto ;
+	  text-align:center;
+	  
+	  border:2px solid #CCC;
+	  font-family:Arial,Tahoma;
+	  width:200px
+	  
+  }
+  .tranc:hover
+  {
+	  transform:rotate(30deg);
+	  color:red;
+	  text-shadow:10px 10px 10px blue;
+	   border-radius:100px;
+	   background:black ;
+	   transform:scale(0.9,0.9);
+	   transition:all is ease-in-out;
+	   transition:all 1s ease-in-out;
+  }
+  .late
+  {
+	  background:#EEE ;
+	  padding:10px ;
+	  margin:100px auto ;
+	  text-align:center;
+	  
+	  border:2px solid #CCC;
+	  font-family:Arial,Tahoma;
+	  width:200px;
+	 
+  }
+  .late:hover
+  {
+	   -webkit-transform:translate(10px,10px);
+	  transform:translate(10px,10px);
+	   -webkit-transition:all is ease-in-out;
+	   -o-transition:all 1s ease-in-out;
+	   -moz-transition:all 1s ease-in-out;
+	   -ms-transition:all 1s ease-in-out;
+	   transition:all 1s ease-in-out;
+	   transform:skew(10deg,10deg)
+	  
+  }
+   .img2
+   {
+	   height:200px;
+	   width:300px;
+	   transition:all .2s ease-in-out;
+	  margin:50px auto;
+	  display:block
+	   
+	   
+   }
+   .img2:hover
+   {
+		   
+		    
+			transform: translateZ(100px);
+			transition:all .9s ease-in-out;
+   }
+   body
+   {
+	   perspective:600px
+   }
+   
+   .father
+   {
+	   width:300px;
+	   height:300px;
+	   line-height:300px;
+	   margin:50px auto;
+	   transition:all .54s ease-in-out;
+	   text-indent:20px;
+	   position:relative;
+	   transform-style:preserve-3d
+	  
+   }
+   .father:hover
+   {
+	   transform:rotatey(180deg);
+	   backface-visibility:visible
+   }
+   
+   .father > div{
+    position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	line-height:300px;
+	color:#FFF;
+	font-size:30px;
+	text-align:center
+   
+   }
+   .front{
+	   z-index:2;
+	   background-color:red;
+	   backface-visibility:hidden
+	   
+   }
+   .back{
+	   z-index:1;
+	   background-color:blue;
+	    transform:rotatey(180deg);
+		
+   }
+  
+   .card{
+	   height:400px;
+	   width:300px;
+	   margin:50px auto;
+	   position:relative;
+	   transform-style:preserve-3d;
+	   transition:all. 1s ease-in-out
+   }
+   .card > div{
+	   position:absolute;
+	   top:0;
+	   left:0;
+	   width:100%;
+	   height:100%;
+	   background-color:#EEE;
+	   padding:10px;
+	   border-radius:20px;
+	   border:1px solid #CCC;
+	   font-family:arial,tahoma;
+	   text-align:center
+	   
+   }
+  header{
+	   background-color:#444;
+	   width:100%;
+	   height:80px;
+	   border-radius:20px
+	   
+   }
+  img{
+	   width:100px;
+	   height:100px;
+	   border-radius:50%;
+	   background-color:#EEF;
+	   padding:7px;
+	 
+	   
+   }
+   img
+   
+   div{
+	   width:600px;
+	   height:600px;
+	   background:red;
+	   background-size:cover;  
+	   color:white;
+	   margin-bottom:20px;
+	   border:10px dotted blue;
+	   background-clip:
+	   
+   }
+   
+   .container{
+	   width:900px;
+	   background-color:#EEE;
+	   border:1px solid #EFE;
+	   padding:10px;
+	   margin:50px auto;
+	   display:flex;
+		height:500px;
+		
+   }
+   .container div{
+	  
+	   color:#FFF;
+	   padding:10px;
+	   width:180px;
+	  max-height:100px;
+	  flex-shrink:1
+   }
+   .container div:first-of-type{
+	   background-color:#080;
+	    flex-shrink:2
+   }
+  .container div:nth-of-type(2){
+	   background-color:#25c654 ;
+   }
+  .container div:last-of-type{
+	   background-color:#00F
+   }
+   div {
+	  
+	   width:400px;
+	   transition-property:width , background-color;
+	   transition-duration:3s , 3s ;
+	   transition-timing-function: ;
+	   transition-delay:
+   }
+   
+   div p {
+	   
+	   background-color:#F00;
+	   margin-bottom:10px;
+	   width:300px;
+	   height:50px;
+	   color:#FEF;
+	   padding:10px;
+	  font-size:20px
+	 ; transition-property:width;
+	  transition-duration:3s;
+	  transition-delay:3s
+   }
+   div p:first-of-type {  transition-timing-function:ease     }
+	 div p:nth-of-type (2) {  transition-timing-function:linear  }
+	  div p:nth-of-type (3){   transition-timing-function:ease-out }
+	   div p:nth-of-type (4){ transition-timing-function:easein-out  }
+	    div p:last-of-type {  transition-timing-function:ease-in  }
+      
+	
+   
+   div:hover p {
+	   width:500px
+   }
+   
+   div{
+	   border:1px solid #CCC;
+	   padding:10px;
+	 -webkit-columns:300px 4;
+	 columns:200px 4 
+   }
+   div h2{
+	   -webkit-column-span:all;
+	   column-span:all
+   }
+   
+   div {
+	   width:100px;
+	   height:100px;
+	   background-color:#F00;
+	   position:absolute;
+	  animation: coloring 5s 1000 linear
+   }
+   @keyframes coloring {
+	   
+	 0%, 100%{
+		  top:0;
+		  left:0;
+		  right:100px
+	  } 
+	25%{
+		top:0;
+		left:200px;
+	 } 
+	
+    50% {
+		top:200px;
+		  left:200px
+	}	
+	
+	75%{
+		top:200px;
+		left:0
+	}
+   }
+   
+   .container {
+	   width:250px;
+	   height:50px;
+	   float:left;
+	    font-family:Arial,Tahoma;
+		font-weight: bold;
+		text-align:center
+   }
+   .container .box {
+	   height:50px;
+	   
+	   line-height:50px;
+	   position:relative;
+	   
+   }
+    .containernormal .box {
+		background-color: #62c8f8
+	}
+   
+    .containertransition .box {
+		background-color: #3B5998
+	}
+	
+    .containeranimation .box {
+		background-color: #C830
+	}
+   
+   
+   
+   
+   div{
+	   border: solid black
+	   
+   }
+ [class^="abdo"]{
+	   color:red
+	   
+   }
+   
+   :checked{
+	   width:100px
+   }
+   
+   */
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
